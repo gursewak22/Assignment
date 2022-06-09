@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+background-color: #d9e19e;
+}
+.background{
+width: 430px;
+height: 520px;
+position: absolute;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 50%;
+}
+.background .shape{
+height: 600px;
+width: 600px;
+position: absolute;
+border-radius: 50%;
+}
+.shape:first-child{
+background: linear-gradient(
+    #564d86,
+    #23a2f6
+);
+left: -720px;
+top: -300px;
+}
+.heading {
+    position: absolute;
+    top: -90px;
+    left: -540px;
+}
+.menu-btn {
+    position: absolute;
+    top: -150px;
+    left: 930px;
+    width: 50px;
+    height: 3rem;
+    border: 0px;
+    background-color: transparent;
+    color: black;
+}
+.option{
+    padding-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form{
+height: 520px;
+width: 400px;
+background-color: rgba(255, 255, 255, 0.447);
+position: absolute;
+transform: translate(-50%,-50%);
+top: 50%;
+left: 50%;
+border-radius: 10px;
+backdrop-filter: blur(10px);
+border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
+padding: 50px 35px;
+}
+form *{
+font-family: 'Poppins',sans-serif;
+color: black;
+letter-spacing: 0.5px;
+outline: none;
+border: none;
+}
+form h3{
+font-size: 32px;
+font-weight: 500;
+line-height: 42px;
+text-align: center;
+}
+.inputs {
+    padding: 2rem 0 2rem 0;
+}
+
+input{
+display: block;
+height: 50px;
+width: 100%;
+background-color: rgba(255,255,255,0.07);
+border-radius: 3px;
+padding: 0 10px;
+margin-top: 8px;
+font-size: 14px;
+font-weight: 300;
+}
+::placeholder{
+color: #050505;
+}
+
+button{
+margin-top: 50px;
+width: 100%;
+background-color: #755ae1;
+color: white;
+padding: 15px 0;
+font-size: 18px;
+font-weight: 600;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.menu-items {
+    height: 93%;
+    background-color: rgba(132, 234, 234, 0.56);
+    position: absolute;
+    top: 50px;
+    left: 87.2rem;
+    padding: 0 2rem;
+    border-radius: 4px;
+}
+
+.list {
+    list-style: none;
+}
+.list li{
+    padding: 15px 0;
+}
+.links {
+    display: none;
+}
+.show-links {
+    display: block;
+}
